@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  ethereum:
+    build: .
+    container_name: ethereum
+    ports:
+    - "8545:8545"
+  polygon:
+    build: .
+    container_name: polygon
+    ports:
+      - "8546:8545"
+  xdai:
+    build: .
+    container_name: xdai
+    ports:
+      - "8547:8545"

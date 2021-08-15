@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-multichain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/noplan-inc/hardhat-multichain.git",
+  "author": "serinuntius <wasab1gj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.6.0",
+    "ts-node": "^10.2.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "run-hardhat": "hardhat node"
+  }
+}
