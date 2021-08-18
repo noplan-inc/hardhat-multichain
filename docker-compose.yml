@@ -4,15 +4,21 @@ services:
   ethereum:
     build: .
     container_name: ethereum
+    volumes:
+    - ./hardhat.eth.ts:/usr/src/app/hardhat.config.ts
     ports:
     - "8545:8545"
   polygon:
     build: .
     container_name: polygon
+    volumes:
+      - ./hardhat.polygon.ts:/usr/src/app/hardhat.config.ts
     ports:
       - "8546:8545"
   xdai:
     build: .
     container_name: xdai
+    volumes:
+      - ./hardhat.xdai.ts:/usr/src/app/hardhat.config.ts
     ports:
       - "8547:8545"
