@@ -6,9 +6,9 @@
   "author": "serinuntius <wasab1gj@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "hardhat": "^2.6.0",
-    "ts-node": "^10.2.0",
-    "typescript": "^4.3.5"
+    "hardhat": "^2.9.9",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
   },
   "scripts": {
     "run-hardhat": "hardhat node"
